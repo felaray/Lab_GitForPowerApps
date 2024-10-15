@@ -1,0 +1,16 @@
+{
+  "d4656b0b-c577-4f1f-8186-15c8c4fb0bee": {
+    "connectionRef": {
+      "displayName": "空間服務",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/partial-builds/1711/1.0.1711.3876/microsoftspatialservices/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_microsoftspatialservices"
+    },
+    "datasets": {},
+    "dataSources": [
+      "空間服務"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "d4656b0b-c577-4f1f-8186-15c8c4fb0bee"
+  }
+}

@@ -1,0 +1,57 @@
+Screen1 As screen:
+    OnVisible: =
+
+    "Map1 As '地圖 (預覽版)'.pcfdataset":
+        AddressDataSource: =AddressInput1.FreeformAddress
+        BorderColor: =RGBA(0, 18, 107, 1)
+        CurrentLocation: =true
+        CurrentLocationLatitude: =SelectedLatitude
+        CurrentLocationLongitude: =SelectedLongitude
+        DefaultLatitude: =Location.Latitude
+        DefaultLocation: =true
+        DefaultLongitude: =Location.Longitude
+        DisplayMode: =DisplayMode.Edit
+        Height: =768
+        OnChange: =
+        OnItemsChange: =false
+        OnLoad: =false
+        OnMapClick: =false
+        OnRouteDirectionChange: =false
+        OnShapeCreated: =false
+        OnShapeDeleted: =false
+        OnShapeEdited: =false
+        OnShapeSelected: =false
+        PinColor: =RGBA(29, 114, 169, 1)
+        Width: =1366
+        X: =0
+        Y: =0
+        ZIndex: =1
+
+    AddressInput1 As 地址輸入:
+        AddressDataSource: =
+        BorderColor: =RGBA(0, 18, 107, 1)
+        CountrySet: ="TW"
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFillColor: =RGBA(244, 244, 244, 1)
+        DisabledFontColor: =RGBA(166, 166, 166, 1)
+        DisplayMode: =DisplayMode.Edit
+        FillColor: =RGBA(255, 255, 255, 1)
+        Height: =70
+        HoverBorderColor: =RGBA(0, 18, 107, 1)
+        HoverFillColor: =RGBA(186, 202, 226, 1)
+        HoverFontColor: =RGBA(0, 0, 0, 1)
+        Language: ='AddressInput.Language'.'zh-TW'
+        Latitude: =Location.Latitude
+        Longitude: =Location.Longitude
+        OnAddressSelect: =false
+        OnChange: =Set(SelectedLatitude,AddressInput1.SelectedLatitude);Set(SelectedLongitude,AddressInput1.SelectedLongitude);
+        PressedBorderColor: =RGBA(0, 18, 107, 1)
+        PressedFillColor: =RGBA(255, 255, 255, 1)
+        PressedFontColor: =RGBA(0, 0, 0, 1)
+        SearchWithinRadius: =true
+        TextColor: =RGBA(0, 0, 0, 1)
+        Width: =560
+        X: =57
+        Y: =48
+        ZIndex: =3
+
