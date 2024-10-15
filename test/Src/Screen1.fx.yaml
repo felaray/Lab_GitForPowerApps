@@ -36,3 +36,29 @@ Screen1 As screen:
         Y: =615
         ZIndex: =2
 
+    AddressInput1 As 地址輸入:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        ContentLanguage: ="zh-TW"
+        CountrySet: ="TW"
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFillColor: =RGBA(244, 244, 244, 1)
+        DisabledFontColor: =RGBA(166, 166, 166, 1)
+        DisplayMode: =DisplayMode.Edit
+        FillColor: =RGBA(255, 255, 255, 1)
+        Height: =70
+        HoverBorderColor: =RGBA(0, 18, 107, 1)
+        HoverFillColor: =RGBA(186, 202, 226, 1)
+        HoverFontColor: =RGBA(0, 0, 0, 1)
+        Language: ="zh-TW"
+        Latitude: =Map1.CenterLocation.Latitude
+        Longitude: =Map1.CenterLocation.Longitude
+        OnAddressSelect: =false
+        PressedBorderColor: =RGBA(0, 18, 107, 1)
+        PressedFillColor: =RGBA(255, 255, 255, 1)
+        PressedFontColor: =RGBA(0, 0, 0, 1)
+        TextColor: =RGBA(0, 0, 0, 1)
+        Width: =560
+        X: =40
+        Y: =40
+        ZIndex: =3
+
